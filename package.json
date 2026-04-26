@@ -1,6 +1,6 @@
 {
   "name": "@hanzogui/native-bundle",
-  "version": "2.0.0",
+  "version": "5.0.0",
   "description": "Vite-based bundler for creating native CommonJS bundles for Hanzo GUI packages",
   "license": "MIT",
   "author": {
