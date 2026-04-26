@@ -1,0 +1,29 @@
+{
+  "name": "@hanzogui/native-bundle",
+  "version": "2.0.0",
+  "description": "Vite-based bundler for creating native CommonJS bundles for Hanzo GUI packages",
+  "license": "MIT",
+  "author": {
+    "name": "Nate Wienert"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
+  },
+  "dependencies": {
+    "vite": "^8.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  }
+}
